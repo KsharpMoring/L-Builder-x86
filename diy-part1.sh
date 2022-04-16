@@ -19,5 +19,6 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 
 #sed -i '$a src-git openwrt_sysuh3c https://github.com/LGA1150/openwrt-sysuh3c' feeds.conf.default
 echo 'src-git openwrt_sysuh3c https://github.com/LGA1150/openwrt-sysuh3c' >>feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
